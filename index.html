@@ -14,7 +14,8 @@
         <title>EatAmAre</title>
             
     </head>
-    
+       
+<body>
     <div data-role="page">
   
     <!--menu-->
@@ -53,30 +54,21 @@
         </div>  
         </div>
        
-        <div id="hearder1">
-        <div data-role="header1" data-position="fixed" style="text-align:center  "  >
-
+       <!--search-->
         
-     <form>
-    <div class="ui-input-search ui-body-inhert ui-corner-all ui-shadow-insert ui-input-has-clear">
-        <input data-type="search" data-enhanced="true" data-inset="false" id="pre-rendered-example-input" placeholder="ค้นหารายการอาหาร" value="ไข่เจียว">
+        
+<form class="ui-filterable">
+<input id ="autocomplete-input" data-type="search" placeholder="ค้นหารายการอาหาร" >
+</form>
+<ul data-role ="listview" data-filter="true" data-filter-reveal="true" 
+data-input="#autocomplete-input" data-inset="true">
+<li><a href="a1.html">ข้าวไข่เจียวหมูสับ</a></li>
+<li><a href="a5.html">แตงโม</a></li>
+</ul>
+        
+     <!--search-->
+                 
        
-    </div>
-          <div data-role ="controlgroup" data-enhanced="true" data-filter="true" data-filter-reveal="true" data-input="#pre-rendered-example-input" class="ui-controlgroup ui-controlgroup-vertical ui corner-all"
->   
-       <div class="ui-controlgroup-controls">
-              
-         <a href="a6.html" class="ui-btn ui-corner-all ui-shadow ui-screen-hidden">ไข่เจียวหมูสับ</a>     
-         
-        </div>
-       
-       </div>
-        
-    
-    </form> 
-             </div>
-        </div>
-        
     
     <div role="main" class="ui-content">
 		<ul data-role="listview" data-insert="true">
@@ -92,7 +84,7 @@
         </ul>
 	</div><!-- /content -->
      </div>
-    <body>
+   
    
   </body>
 </html>
