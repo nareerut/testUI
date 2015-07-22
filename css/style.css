@@ -1,0 +1,21 @@
+body{
+    font-size: 16px;
+}
+.ui-header .ui-title{
+    font-size: 16px;
+    color: #505050;
+}
+.header1{
+   
+}
+
+
+.ui-listview li h2{
+    font-size: 16px;
+    color: #505050;
+}
+.ui-listview li p{
+    font-size: 14px;
+    color: #505050;
+}
+
